@@ -25,3 +25,33 @@ img {
   float: left;
   display: block;
 }
+
+img:nth-child(2) {
+  display: none;
+}
+
+img:nth-child(5) {
+  display: none;
+}
+
+@media only screen and (min-width: 25em) {
+
+  img:nth-child(3) {
+    float: left;
+    display: inline-block;
+    width: 50%;
+  }
+
+  img:nth-child(even) {
+    float: left;
+    display: inline-block;
+    width: 50%;
+  }
+
+  img:nth-child(5) {
+    float: left;
+    display: inline-block;
+    width: 50%;
+  }
+
+}

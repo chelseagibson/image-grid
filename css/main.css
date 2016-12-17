@@ -64,13 +64,11 @@ img:nth-child(5) {
     width: 100%;
   }
 
-
   img:nth-child(3) {
     float: left;
     display: inline-block;
     width: 33.3333%;
   }
-
 
   img:nth-child(5) {
     display: none;
@@ -80,7 +78,7 @@ img:nth-child(5) {
     float: left;
     display: inline-block;
     width: 33.3333%;
-    }
+  }
 
 }
 
